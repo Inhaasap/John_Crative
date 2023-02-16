@@ -1,0 +1,26 @@
+.header {
+  Width: 1440px; 
+  Padding: 0px 20px 0px 20px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction:row;
+}
+
+.navigation__list {
+  list-style: none;
+}
+
+.navigation__item{
+
+}
+
+.navigation__link {
+  color: var(--color-text-primary);
+  text-decoration: none;
+}
+
+.navigation__link:hover {
+  text-decoration: underline;
+}

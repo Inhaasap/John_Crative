@@ -1,0 +1,55 @@
+.work {}
+
+.work__title__work {}
+
+.work__lists {
+  display: flex;
+  padding: 16px 0;
+  gap: 24px;
+}
+
+.work__img {}
+
+.work__title {
+  margin: 0px 0px 8px 0px;
+}
+
+.work__date {}
+
+.work__type {}
+
+.work__text {
+  padding: 16px 0px 0px;
+}
+
+.work__link {}
+
+.work__lists__block {}
+
+.work__title__block {
+  display: flex;
+  justify-content: flex-start;
+  padding: 40px 0px 16px 16px;
+}
+
+.work__list__block {
+  margin: 0px 0px 24px 0px;
+}
+
+.work__list__block:last-child {
+  margin: 0px 0px 0px 0px;
+}
+
+.list__img__row {
+  display: flex;
+}
+
+.list__text__row {
+  padding: 16px 8px;
+}
+
+.list__date__row {
+  display: flex;
+  gap: 24px;
+  margin: 0px 0px 8px 0px;
+}

@@ -1,0 +1,26 @@
+body {
+  font-family: "Inter", sans-serif;
+  color: var(--black-text-color);
+  height: 100%;
+}
+
+:root {
+  --white-color: #ffffff;
+  --black-text-color: #21243d;
+  --coral-color: #ff6464;
+  --bg-color-recent-posts: #edf7fa;
+  --link-color: #00a8cc;
+  --light-grey-color-date: #8695a4;
+  --color-text-footer: #678398;
+  --bg-year-tag: #2a326f;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+}
