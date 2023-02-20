@@ -2,20 +2,20 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Inhaasap.github.io/John_Creative",
+  "homepage": "https://github.com/Inhaasap/John_Creative",
   "scripts": {
     "start": "parcel src/*.html -p 3333 --open",
     "build": "parcel build src/*.html --public-url /John_Creative/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/Inhaasap/John_Creative.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/Inhaasap/John_Creative/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0",
