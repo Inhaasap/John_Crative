@@ -18,10 +18,7 @@
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
-    "joi": "^17.8.1",
     "modern-normalize": "^1.1.0",
-    "shortid": "^2.2.16",
-    "uuid.v4": "^1.0.0",
     "validator": "^13.9.0"
   },
   "devDependencies": {
