@@ -1,7 +1,12 @@
 :root {
-  --color-text-primary: #21243d;
-  --color-text-secondary: #636b78;
-  --color-view-all-link: #00a8cc;
+  --white-color: #fff;
+  --black-text-color: #21243d;
+  --coral-color: #ff6464;
+  --bg-color-recent-posts: #edf7fa;
+  --link-color: #00a8cc;
+  --light-grey-color-date: #8695a4;
+  --color-text-footer: #678398;
+  --bg-year-tag: #2a326f;
 }
 
 * {
@@ -71,17 +76,6 @@ body {
   font-family: Inter, sans-serif;
 }
 
-:root {
-  --white-color: #fff;
-  --black-text-color: #21243d;
-  --coral-color: #ff6464;
-  --bg-color-recent-posts: #edf7fa;
-  --link-color: #00a8cc;
-  --light-grey-color-date: #8695a4;
-  --color-text-footer: #678398;
-  --bg-year-tag: #2a326f;
-}
-
 .list {
   margin: 0;
   padding: 0;
@@ -102,27 +96,45 @@ body {
   margin: 0 auto;
 }
 
-.header {
-  width: 1440px;
-  padding: 0 20px;
-}
-
-.header-container {
-  flex-direction: row;
+.wrapper {
+  min-height: 100%;
+  flex-direction: column;
   display: flex;
 }
 
-.navigation__list {
-  list-style: none;
+.header {
+  background-color: var(--white-color);
 }
 
-.navigation__link {
-  color: var(--color-text-primary);
-  text-decoration: none;
+.menu {
+  justify-content: space-between;
+  margin: 0 0 15px;
+  padding: 0 0 15px;
+  display: flex;
 }
 
-.navigation__link:hover {
-  text-decoration: underline;
+.menu__lists {
+  gap: 24px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.18;
+  display: flex;
+}
+
+.menu__item {
+  color: var(--black-text-color);
+}
+
+.menu__item:hover, .menu__item:focus {
+  text-decoration-line: underline;
+}
+
+.menu__item__active {
+  color: var(--coral-color);
+}
+
+.main {
+  flex: auto;
 }
 
 .hero__block {
@@ -351,6 +363,32 @@ body {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
+}
+
+.footer__block {
+  display: flex;
+}
+
+.footer__text {
+  color: var(--color-text-footer);
+  margin: 24px 0 75px;
+  font-size: 14px;
+  line-height: 1.22;
+}
+
+.social__row {
+  margin: 32px 0 0;
+  padding: 32px 0 0;
+}
+
+.social__row ul {
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 16px 0;
+  display: flex;
 }
 
 .posts__block {
